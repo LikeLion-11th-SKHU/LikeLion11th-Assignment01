@@ -1,0 +1,11 @@
+@font-face { /* 5번 가이드라인 준수 */
+    font-family: 'Humanbumsuk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { 
+    font-family: 'Humanbumsuk';
+    background-color: rgb(255, 255, 128); /* 4번 가이드라인 준수 */
+}
