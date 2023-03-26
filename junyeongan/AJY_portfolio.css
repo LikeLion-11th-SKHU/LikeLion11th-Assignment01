@@ -6,7 +6,13 @@
   font-style: normal;
 }
 body {
-  /*4번 가이드라인에 따라 background-color설정*/
-  background-color: #f2f2f2; /*4번 가이드라인에 따라 background-color설정*/
-  font-family: "Nanum gothic";
+  /*4번 가이드라인에 따라 background-color설정, 5번 가이드라인에 따라 웹폰트 설정*/
+  background-color: white; /*4번 가이드라인에 따라 background-color설정*/
+  font-family: "TheJamsil5Bold";
+}
+a {
+  text-decoration: none;
+}
+nav {
+  margin-top: 30px;
 }
