@@ -19,3 +19,16 @@ nav {
 li {
   margin-top: 50px;
 }
+table {
+  border-radius: 10px;
+  border-collapse: collapse;
+  box-shadow: 1px black;
+}
+/* 8번 가이드라인에 따라 table 작성 및 border속성 사용  */
+tr {
+  border: 1px solid black;
+}
+td {
+  padding: 10px;
+  border: 1px solid black;
+}
