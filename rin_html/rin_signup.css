@@ -1,0 +1,30 @@
+@font-face { /*5번. 폰트 사용*/
+    font-family: 'Dovemayo_gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');  /*5번 웹 폰트 (2)*/
+    font-weight: normal;
+    font-style: normal;
+} 
+body {
+    font-family: NanumGothic;
+    line-height: 1.5;
+    color: #432;  
+    background-color: aliceblue;  /*4번. 백그라운드 컬러*/
+}
+a { 
+    text-decoration: none; /* 원래 생기는 밑줄을 없애기 */
+
+}
+.main-nav {
+    display: flex; /* 가로 정렬 */
+    list-style: none;
+    font-size: 1.25rem; /* rem:웹 브라우저 기본 글씨크기(16px) */
+    text-transform: uppercase; /* 알파벳 대문자로 변환 */
+    margin-top: 34px;
+    width: 300px;
+    justify-content: space-around;
+
+}
+
+.main-nav a {
+    color: #432;
+}
