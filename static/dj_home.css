@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+body {
+  font-family: 'TheJamsil5Bold';/* 5번 가이드라인 */
+  background-color: #eeeeea; /* 4번 가이드라인 */
+}
+table {
+  width: 1000px;
+  border:1px solid gray;
+  border-collapse: collapse;
+}
+thead {
+  background: #EaaEEe;
+}
+th, td {
+  border: 1px solid gray;
+  padding: 20px;
+  font-size: 10pt;
+  text-align: center;
+}
+table img {
+  width: 300px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: circle;
+}
+footer {
+  border-top: 1px solid #ddd;
+  padding: 30px 10px;
+}
+footer div {
+  font: normal 9pt;
+  margin-top: 10px;
+}
