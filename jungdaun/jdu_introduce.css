@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'ACCchildrenheartOTF-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112-2@1.0/ACCchildrenheartOTF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} /* 5번 가이드라인에 따라 코드 작성 */
+
+h3 {
+    font-size: 350%;
+    text-align: center;
+    font-weight: 600;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+h5{
+    text-align: center;
+    margin-top: -20px;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+}
+
+li{
+    margin-left: 35%;
+    margin-bottom: 1%;
+}
+
+h4{
+    text-align: center;
+}
+
+section{
+    background-image: url(https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20101202_132%2Fjinjun97_1291289956804yyiyr_PNG%2F%25BA%25F1%25C7%25E0%25B1%25E2.png&type=sc960_832);
+    /* 6번 가이드라인에 따라 코드 작성 */
+    background-size: cover; /* 4번 가이드라인에 따라 코드 작성 */
+}
+
+body{
+    font-family: 'ACCchildrenheartOTF-Regular';
+}

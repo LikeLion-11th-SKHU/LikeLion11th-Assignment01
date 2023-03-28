@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+} /* 5번 가이드라인에 따라 코드 작성 */
+
+section {
+    font-family: 'TheJamsil5Bold';
+    background-image:url("img/home.png"); /* 4번 가이드라인에 따라 코드 작성 */
+    background-size:cover;
+}
+
+section{
+    text-align: center;
+}
+
+h3{
+    color: tomato;
+    font-size: 120%;
+}
+
+table, tr, th{
+    border-collapse: collapse;
+    border-color:violet;
+}
+
+form {
+    color: sienna;
+}
+
+li{
+    color:purple;
+}
+
+p{
+    margin: auto;
+}
+
+
+

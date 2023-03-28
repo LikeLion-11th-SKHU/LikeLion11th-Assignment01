@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} /* 5번 가이드라인에 따라 코드 작성 */
+ 
+body {
+    background: linear-gradient(45deg, Violet, Blue);
+    /* 4번 가이드라인에 따라 코드 작성 */
+    font-family: 'SBAggroB';
+}
+
+table, td, th{
+    border-collapse: collapse;
+}
