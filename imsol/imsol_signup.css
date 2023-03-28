@@ -1,0 +1,43 @@
+/* 5. 웹 폰트 적용 */
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'PyeongChangPeace-Bold';
+}
+
+body {
+    font-family: 'TheJamsil5Bold';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 50px;
+}
+
+footer {
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    align-content: center;
+}

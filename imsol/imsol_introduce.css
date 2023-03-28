@@ -1,0 +1,74 @@
+/* 5. 웹 폰트 적용 */
+
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+header {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'PyeongChangPeace-Bold';
+}
+
+body {
+    font-family: 'TheJamsil5Bold';
+    ;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ol {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 50px;
+}
+
+nav p {
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+
+img {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+}
+
+li a img {
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+footer img {
+    width: 30px;
+}
