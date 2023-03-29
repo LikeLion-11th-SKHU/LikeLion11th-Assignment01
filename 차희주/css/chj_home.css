@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+     /*과제 수행번호 5번, 웹 폰트 적용 1*/
+    font-family:'TTTtangsbudaejjigaeB' ;
+    /*과제 수행번호 4번, background-color */
+    background-color: rgb(255, 226, 159);
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+}
+.mainImg{
+    text-align: center;
+}
+.info{
+    color: darkorange;
+    text-align: center;
+}
+ol{
+    font-size: 20px;
+    /*과제 수행번호 5번, 웹 폰트 적용 2*/
+    font-family: 'GmarketSansMedium';
+}
+
+textarea{
+    text-align: center;
+    /*과제 수행번호 5번, 웹 폰트 적용 2*/
+    font-family: 'GmarketSansMedium';
+}
+
+table{
+    border-collapse: collapse; 
+    margin-left: 40px;
+}
+td{
+    border: 3px solid rgb(250, 129, 54);   /*과제번호 8번, border속성 활용*/
+    text-align: center;
+    padding: 20px;
+}

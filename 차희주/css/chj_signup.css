@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'GmarketSansMedium';   /*과제 수행번호 5번, 웹 폰트 적용 1*/
+    background-color: gainsboro;    /*과제 수행번호 4번, background-color */
+}
+
+table{
+    border-collapse: collapse; 
+    margin-left: 40px;
+    width: 40%;
+    height: 300px;
+}
+td{
+    border: 3px solid rgb(0, 0, 0);   /*과제번호 8번, border속성 활용*/
+    text-align: center;
+    padding: 20px;
+}
