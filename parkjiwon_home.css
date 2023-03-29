@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+ul{
+    display: inline;
+}
+
+body{
+    /* 5번 가이드라인 */
+    font-family: 'TheJamsil5Bold';
+    /* 4번 가이드라인 */
+    background-color: #A9B99F;
+}
