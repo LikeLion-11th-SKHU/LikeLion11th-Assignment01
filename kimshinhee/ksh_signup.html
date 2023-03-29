@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ksh_signup</title>
+    <link rel ="stylesheet" href="ksh_signup.css">
+</head>
+<body>
+    <header><h1>Signup</h1></header>
+    <nav><h2><a href="ksh_home.html">Home</a>&nbsp;<a href="ksh_introduce.html">Introduce</a>&nbsp;<a href="ksh_portfolio.html">Portfolios</a>&nbsp;<a href="ksh_signup.html">Signup</a></h2></nav>
+
+    <section>
+        <article>
+             
+            이름:<form action = "전송받을 URL">
+                <input type="text" name="myName"></form><br>
+                
+            아이디:<form action = "전송받을 URL">
+                <input type="text" name="myId"></form><br>
+                
+            비밀번호:<form action = "전송받을 URL">
+                <input type="password" name="myPassword"></form><br>
+                
+            이메일:<form action = "전송받을 URL">
+                <input type="email" name="myEmail"></form><br>
+                
+            나이:<form action = "전송받을 URL">
+                <input type="number" name="myAge"></form><br>
+                
+            성별:<form action = "전송받을 URL">
+                <input type="radio" name="myGender" value="남성">남성
+                <input type="radio" name="myGender" value="여성">여성</form><br>
+
+            언어:<form action = "전송받을 URL">   
+                <input type="checkbox" name="language" value="c">C
+                <input type="checkbox" name="language" value="PYthon">Python
+                <input type="checkbox" name="language" value="java">Java
+                <input type="checkbox" name="language" value="js">JS</form><br>
+
+            학부:<form action = "전송받을 URL">    
+                <select>
+                    <option value="humanities">인융</option>
+                    <option value="social">사융</option>
+                    <option value="media">미컨</option>
+                    <option value="it">IT</option>
+                </select></form><br>
+
+            전화번호:<form action = "전송받을 URL">
+                <input type="number" name="userNumber"></form><br>
+
+            오늘 날짜:<form action = "전송받을 URL">
+                <input type="date" name="today"></form><br>
+
+            url:<form action = "전송받을 URL">
+                <input type="url" name="userUrl"></form><br>
+            
+            사진:<form name ="사진" action="파일" method="post" enctype="multipart/form-data">
+                <input type="file" name="selectFile">
+                </form><br>
+
+            좋아하는 색:<form action = "전송받을 URL">
+            <input type="color" name="myBestColor">
+            </form>
+            <br><input type="Submit" value="submit">
+
+            
+        </article>
+    </section>
+    <br>
+    <footer>
+        <b>Copyright &copy; 멋쟁이사자처럼 11기 성공회대학교 김신희</b>
+    </footer>
+</body>
+</html>
