@@ -37,9 +37,10 @@ body {
     line-height: 1.5;
     color: #212529;
     font-family: 'TheJamsil5Bold';
-    ;
     text-align: center;
     font-family: 'TheJamsil5Bold';
+    background-color: #edcaed
+    /*4. background-color 적용*/
 }
 
 tr {

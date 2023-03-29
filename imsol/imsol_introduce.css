@@ -24,8 +24,10 @@ header {
 
 body {
     font-family: 'TheJamsil5Bold';
-    ;
     text-align: center;
+    /*4. background-color 적용*/
+    background-color: #edcaed
+
 }
 
 a {
@@ -33,11 +35,11 @@ a {
     color: black;
 }
 
-ol {
-    width: 300px;
+ul {
+    display: table;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
 nav {
     font-size: 18px;

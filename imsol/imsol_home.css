@@ -12,7 +12,7 @@
     font-weight: 700;
     font-style: normal;
 }
-
+ /*4. background-image 적용*/
 body {
     font-family: 'TheJamsil5Bold';
     text-align: center;
@@ -47,4 +47,8 @@ footer {
     left: 0;
     right: 0;
     margin-bottom: 15px;
+}
+
+footer img {
+    width: 30px;
 }

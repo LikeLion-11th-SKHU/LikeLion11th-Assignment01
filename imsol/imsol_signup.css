@@ -21,6 +21,8 @@ header {
 
 body {
     font-family: 'TheJamsil5Bold';
+    background-color: #edcaed
+    /*4. background-color 적용*/
 }
 
 a {
