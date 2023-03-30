@@ -5,6 +5,13 @@
     font-style: normal;
 }
 body {
-    font-family: 'GyeonggiTitleM'; /* 4번 */
-    background-color: #eaeaea; /* 5번 */
+    font-family: 'GyeonggiTitleM'; /* 5번 */
+    background-color: #eaeaea; /* 4번 */
 }
+
+table {
+    display: table; /* 8번 */
+    border-collapse: separate;
+    border-spacing: 3px;  
+    border-color: gray;  
+  }
