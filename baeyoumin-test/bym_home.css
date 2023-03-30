@@ -1,0 +1,46 @@
+/*5번*/
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/*4번*/
+body {
+    background-image:url(https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA4MjhfMjQ2%2FMDAxNTk4NTQ3Nzk4NDM3.tmcRWGLJvoiKIoENvimBxn0DyaFLz3WXWu_hRO3Burgg.Plc4Frv5awPtU-Sv0h5mvi1ofunX-X56IneQV1GjNvUg.JPEG.jm_0627%2F1598547795434.jpg&type=a340); 
+    background-size: cover;
+}
+
+
+h1 {
+    font-size: 50px;
+    color: black
+}
+
+h2 {
+    font-size: 40px;
+    color: black;
+}
+
+body {
+    font-family: 'PyeongChangPeace-Bold';
+    text-align: center;
+}
+
+a :link {
+    color : white;
+}
+
+a :visited {
+    color : black;
+}
+
+a :hover {
+    color : orange;
+}
+
+a :active {
+    color : green;
+}
