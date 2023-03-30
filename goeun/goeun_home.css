@@ -1,0 +1,25 @@
+@font-face {
+     /* 5번 html에 웹 폰트 적용 하기 (완료)*/
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+table{
+    /*8번 table 하나 이상 작성-border속성 사용하기(완료)*/
+    border: 0px;
+    margin: 50px auto;
+    padding: 20px auto;
+}
+
+body{
+    /* 5번 html에 웹 폰트 적용 하기 (완료)*/
+    font-family: 'KOTRAHOPE';
+    text-align: center;
+    /* 4번 background-image사용(완료)*/
+    background-image: url(https://mblogthumb-phinf.pstatic.net/MjAxNzA0MjlfMjc5/MDAxNDkzNDczMzc5MzA2.kNh-8Tmm9TaMDCsl8FTkzPgZyzpO3nDjFlI2s1T7xTwg.hsxF04x0HLbl3cbrqeEDAWbCJApnoKePYjW5ufa9V2Ug.PNG.harbert1110/2.png?type=w2);
+    background-size: cover;
+    color: bisque;
+   
+}
