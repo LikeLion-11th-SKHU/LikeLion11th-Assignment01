@@ -1,36 +1,39 @@
 @font-face {
     /* 5번 html에 웹 폰트 적용 하기 (완료)*/
-   font-family: 'KOTRAHOPE';
-   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
-   font-weight: normal;
-   font-style: normal;
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
-body{
+body {
     background-size: cover;
-     /* 4번 background-image사용 (완료)*/
-    background-image:url(https://t1.daumcdn.net/cfile/tistory/99F2CB505D2BC76C34) ;
-     /* 5번 모든 html에 웹 폰트 적용 하기(완료)*/
+    /* 4번 background-image사용 (완료)*/
+    background-image: url(https://t1.daumcdn.net/cfile/tistory/99F2CB505D2BC76C34);
+    /* 5번 모든 html에 웹 폰트 적용 하기(완료)*/
     font-family: 'KOTRAHOPE';
 }
-header{
+
+nav {
     text-align: center;
 }
-table{
+
+table {
     width: 1500px;
     /*8번 table 하나 이상 작성-border속성 사용하기(완료)*/
     border: 1px solid black;
     border-collapse: collapse;
 
 }
-thead{
+
+thead {
     background-color: gray;
 }
-th,td{
+
+th,
+td {
     border: 1px dotted black;
     padding: 10px;
     font-size: 20px;
     text-align: center;
 }
-
- 

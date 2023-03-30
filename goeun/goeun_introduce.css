@@ -1,14 +1,16 @@
 @font-face {
     /* 5번 html에 웹 폰트 적용 하기 (완료)*/
-   font-family: 'KOTRAHOPE';
-   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
-   font-weight: normal;
-   font-style: normal;
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
-h3{
+
+h3 {
     color: aqua;
 }
-body{
+
+body {
     /* 5번 html에 웹 폰트 적용 하기 (완료)*/
     font-family: 'KOTRAHOPE';
     text-align: center;
@@ -17,10 +19,10 @@ body{
     background-size: cover;
     color: bisque;
 }
-table{
+
+table {
     /* 8번 table 하나 이상 작성-border속성 사용하기(완료) */
     border: 0px;
     margin: 50px auto;
     padding: 20px auto;
 }
-
