@@ -1,0 +1,10 @@
+#wrapper {
+  height: auto;
+  min-height: 100%;
+  padding-bottom: 20px;
+}
+footer {
+  height: 20px;
+  position: relative;
+  transform: translateY(-100%);
+}

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "TheJamsil5Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  /*4번 가이드라인에 따라 background-color설정, 5번 가이드라인에 따라 웹폰트 설정*/
+  background-color: white;
+  font-family: "TheJamsil5Bold";
+}
+a {
+  text-decoration: none;
+}
+nav {
+  margin-top: 30px;
+}
+li {
+  margin-top: 50px;
+}
+table {
+  border-radius: 10px;
+  border-collapse: collapse;
+  box-shadow: 1px black;
+}
+/* 8번 가이드라인에 따라 table 작성 및 border속성 사용  */
+tr {
+  border: 1px solid black;
+  margin: auto;
+  text-align: center;
+}
+td {
+  padding: 10px;
+  border: 1px solid black;
+}

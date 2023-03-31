@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "TheJamsil5Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  /*4번 가이드라인에 따라 background-color설정,5번 가이드라인에 따라 웹폰트 설정*/
+  background-color: white;
+  font-family: "TheJamsil5Bold";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  margin-top: 50px;
+}
+.home {
+  text-align: center;
+}
