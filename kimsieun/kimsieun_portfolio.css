@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'GyeonggiTitleM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'GyeonggiTitleM'; /* 5번 */
+    background-color: #eaeaea; /* 4번 */
+}
+
+table {
+    display: table; /* 8번 */
+    border-collapse: separate;
+    border-spacing: 3px;  
+    border-color: gray;  
+  }
