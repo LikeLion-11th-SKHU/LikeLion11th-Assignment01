@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>HOME</title>
+        <link rel="stylesheet" href="kth_home.css">
+    </head>
+    <body>
+        
+        <header>
+            <h1>HOME</h1>
+        </header>
+        <nav>
+            <h4>페이지 목록</h4>
+                        <li><a href="kth_introduce.html">Introduce</a></li>
+                        <li><a href="kth_portfolio.html">Portfolio</a></li>
+                        <li><a href="kth_signup.html">SignUp</a></li>
+        </nav>
+        <hr>
+        <section>
+            <article>
+                <form action = "전송받을 URL">
+                    아이디 : <input type="text" name="myID">
+                    비밀번호 : <input type="password" name="mypassword">
+                    <input type="submit" value="submit">
+                </form><!--form사용-->
+            </article>
+            <article>
+                <h4>일기장</h4>
+                <form action = "전송받을 URL">
+                    <select>    
+                        <h4>오늘 날짜:</h4>
+                        <input type="date"> 
+                    </select>
+                    <br>
+                    <h5>내용</h5>
+                    <textarea cols="30" rows="10"></textarea><!--textra 사용-->
+                    <br>
+                    <button type="button"> 전송 </button>
+                </form>
+            </article>
+            <article>
+                <h3>사진</h3>
+                <img src="image/poto1.jpg" alt="김태형" style="width: 500px; height: 300px;"><!--사진-->
+
+                <br>
+                <a href="kth_introduce.html">소개</a>
+            </article>
+        </section>
+        <hr>
+            <footer>
+                Copyright &copy; 성공회대학교 멋쟁이사자처럼 11기
+            </footer>
+    </body>
+</html>
