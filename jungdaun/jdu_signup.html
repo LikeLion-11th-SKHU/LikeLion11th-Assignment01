@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>jdu_signup</title>
+        <link rel="stylesheet" href="jdu_signup.css">
+    </head>
+    <body>
+        <header>
+            <h1>SignUp</h1>
+            <nav>
+                <a href="jdu_home.html">Home&nbsp;</a>
+                <a href="jdu_introduce.html">Introduce&nbsp;</a>
+                <a href="jdu_portfolio.html">Portfolios&nbsp;</a>
+                <a href="jdu_signup.html">SignUp</a>
+            </nav>
+        </header>
+        
+        <section>
+            <article>
+                <ul> <!--9번 가이드라인에 따라 코드 작성-->
+                <form action = "전송받을 URL"><br></form>
+                    <li>이름:<br> <input type = "text" name = "userName"><br></li>
+                    <li>아이디:<br> <input type = "text" name = "myId"><br></li>
+                    <li>비밀번호:<br> <input type = "password" name = "myPassword"><br></li>
+                    <li>이메일:<br><input type = "email" name = "myEmail"><br></li>
+                    <li>나이:<br> <input type = "number" name = "myAge"><br></li>
+                </ul>
+            </article>
+            <article>
+                    <strong>성별:</strong><br>
+                    <input type = "radio" name = "gender" value = "M"> 남성
+                    <input type = "radio" name = "gender" valud = "F"> 여성<br>
+            </article>
+            <article>
+                    <strong>언어:</strong><br>
+                    <input type = "checkbox" name = "language" value="C">C
+                    <input type = "checkbox" name = "language" value="Python">Python
+                    <input type = "checkbox" name = "language" value="Java">Java
+                    <input type = "checkbox" name = "language" value="JS">JS
+                </form>
+            </article>
+            <article>
+                <p>학부:</p><br>
+                <select>
+                    <option value="i">인융</option>
+                    <option value="s">사융</option>
+                    <option value="m">미컨</option>
+                    <option value="it">it</option>
+                </select>
+            </article>
+            <article>
+                <form>
+                    <a title="전화번호를 입력하세요&#33;"><h4>전화번호:</h4></a>
+                    <input type="tel" name="tel">
+                    <!--12번 가이드라인에 따라 코드 작성--> <!--13번 가이드라인에 따라 코드 작성-->
+                </form>
+            </article>
+            <article>
+                <form><a title="날짜를 입력하세요&#126;">오늘 날짜:</a><br>
+                    <!--12번 가이드라인에 따라 코드 작성--> <!--13번 가이드라인에 따라 코드 작성-->
+                <p><input type="date"></p></form>
+            </article>
+            <article>
+                <form action = "전송받을 URL"></form>
+                url:<br><input type="url" name="myBlog"><br>
+            </article>
+            <article>
+                <label for = "img">사진:</label><br>
+                <input type="file" id="img" name="img" accept="image/png">
+            </article>
+            <article>
+                <form>좋아하는 색:<br>
+                <input type="color" id="mtBestColor" value="#000000"></form>
+            </article>
+            <article>
+                <table border="1"> <!--8번 가이드라인에 따라 코드 작성-->
+                    <tr>
+                <th><input type="submit" value="Submit"></th>
+                    </tr>
+                </table>
+            </article>
+            <article>
+                <h4>기타:</h4><br>
+                <p><textarea name="number" id="" cols="22" rows="1"></textarea></p> <!--11번 가이드라인에 따라 코드 작성-->
+            </article>
+        </section>
+        <footer>
+            Copyright &copy; 멋쟁이사자처럼 11기 성공회대학교 정다운
+        </footer>
+    </body>
+</html>

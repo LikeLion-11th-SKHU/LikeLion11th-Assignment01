@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'KCC-Ganpan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    } /* 5번 가이드라인에 따라 코드 작성 */
+
+body {
+    font-family: 'KCC-Ganpan';
+    background-color: silver;  /* 4번 가이드라인에 따라 코드 작성 */
+}
+
+a{
+    text-decoration: none;
+}
