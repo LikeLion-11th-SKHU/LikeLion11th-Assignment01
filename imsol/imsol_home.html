@@ -1,0 +1,47 @@
+<!--멋쟁이 사자처럼/임예솔 2주차 과제-->
+<!--1. html파일 4개 생성-->
+<!--3. img 파일 별도 생성-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="imsol_home.css"> <!--2. css파일 스타일시트 생성 후 html과 연결-->
+    <meta charset="UTF-8">
+    <title> imsol_home</title>
+</head>
+
+<body>
+
+    <header> <!--3. 시멘틱 마크업 준수(header/nav/section/article/footer)-->
+        <!--7. 구획 제목 1:home-->
+        <h3> home </h3>
+    </header>
+    <nav>
+        <a href="imsol_home.html" a:link> home</a>
+        <a href="imsol_introduce.html"> introduce</a>
+        <a href="imsol_portfolio.html"> portfolio</a>
+        <a href="imsol_signup.html"> signup </a>
+    </nav>
+    <section>
+        <article>
+            <!--7. 구획 제목 2:sonamu-->
+            <h3> &#91; S O N A M U &#93;</h3>
+            <!--6. 이미지 1:꼬지모-->
+            <img src="https://thumbs.gfycat.com/IllinformedFirstAnkole-size_restricted.gif" alt="꼬지모"
+                style="width: 250px; height: 250px;"> <br>
+            <!--11. textarea 태그 사용-->
+            <textarea cols="30" rows="1">Welcome!</textarea> <button id="hi">인사하기</button>
+            <script>
+                document.getElementById("hi").onclick = function () {
+                    alert("누구나 시작은 Hello World!");
+                };
+            </script>
+        </article>
+    </section>
+    <!--6. 이미지 2: lion-->
+    <footer>Copyright &copy; 성공회대 멋쟁이사자처럼 11기  <a href="https://www.likelion.net/"> <img src="image/lion.png" alt="사자처럼"> </a>
+    </footer>
+</body>
+
+</html>
