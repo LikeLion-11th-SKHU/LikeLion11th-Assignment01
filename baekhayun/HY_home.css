@@ -1,0 +1,21 @@
+/* 웹폰트 사용 */
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'KIMM_Bold';
+    text-align: center;
+    /* background-image 사용 */
+    background-image: url(https://api.cdn.visitjeju.net/photomng/imgpath/202111/17/0705c9ba-de93-48b1-aa17-6f5682fa36e2.JPG);
+    background-size: cover;
+}

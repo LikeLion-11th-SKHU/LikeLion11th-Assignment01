@@ -1,0 +1,22 @@
+/* 웹폰트 사용 */
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+table, td, th {
+    /* table, border 속성 사용 */
+    border : 1px solid black;
+    border-collapse : collapse;
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    font-family: 'KIMM_Bold';
+    text-align: center;
+    /* background-color 사용 */
+    background-color: #DAD9FF;
+}
