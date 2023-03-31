@@ -1,0 +1,17 @@
+/* h3{
+
+} */
+body {
+    text-align: center;
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/27/07/32/clouds-1282314__340.jpg);
+    background-size:cover;
+    font-family: 'TAEBAEKmilkyway';
+}
+/* html태그에 적용하지 않음*/
+
+@font-face {
+    font-family: 'TAEBAEKmilkyway';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
